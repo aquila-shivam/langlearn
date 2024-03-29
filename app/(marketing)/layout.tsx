@@ -1,5 +1,5 @@
 import { Header } from "./Header";
-
+import { Footer } from "./Footer";
 type Props = {
     children : React.ReactNode;
 }
@@ -12,6 +12,7 @@ const MarketingLayout = ({children}:Props) => {
         items-center justify-center">
           {children}
         </main>
+        <Footer/>
     </div>
   )
 }
