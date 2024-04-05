@@ -29,6 +29,9 @@ const LearnPage = async() => {
     redirect("/courses");
   }
 
+  if(!courseProgress){
+    redirect('/course');
+  }
 
   return (
     <div className="flex flex-row-reverse gap-[48px] px-6">
@@ -53,8 +56,8 @@ const LearnPage = async() => {
               description = {unit.description}
               title = {unit.title}
               lessons = {unit.lessons}
-              activeLesson = {undefined}
-              activeLessonPercentage = {0}
+              activeLesson = {courseProgress.activeLesson}
+              activeLessonPercentage = {lessonPercentage}
 
             />
           </div>
