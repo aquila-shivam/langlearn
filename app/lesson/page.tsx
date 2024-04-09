@@ -21,6 +21,7 @@ const LessonPage = async () => {
   .filter((challenge) =>challenge.completed)
   .length / lesson.challenges.length * 100;
 
+
   return (
     <Quiz
       initialLessonId = {lesson.id}

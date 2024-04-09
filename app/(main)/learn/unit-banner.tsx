@@ -13,7 +13,7 @@ export const UnitBanner = ({title,description}:Props) => {
     flex items-center justify-between">
         <div className="space-y-2.5">
             <h3 className="text-2xl font-bold ">
-                {title}
+                {title}   
             </h3>
             <p className="text-lg">
                 {description}
@@ -25,7 +25,7 @@ export const UnitBanner = ({title,description}:Props) => {
             variant="secondary" 
             className="hidden xl:flex border-2 border-b-4 active:border-b-2 ">
                 <NotebookText className="mr-2 "/>
-                Continue
+                Continue 
             </Button>
         </Link>
     </div>
