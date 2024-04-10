@@ -39,8 +39,8 @@ export const Card = ({
     if(disabled){
       return;
     }
-
-    controls.play()
+    console.log(audioSrc);
+    controls.play();
     onClick();
     
   },[disabled,onClick,controls]);

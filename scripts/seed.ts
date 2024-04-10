@@ -123,7 +123,7 @@ const main = async () =>{
                 imageSrc : '/man.svg',
                 correct : true,
                 text : 'el hombre',
-                audioSrc : '/es_man.mp'
+                audioSrc : '/es_man.mp3'
             },
             {
                 id : 2,
@@ -131,7 +131,7 @@ const main = async () =>{
                 imageSrc : '/woman.svg',
                 correct : false,
                 text : 'la mujer',
-                audioSrc : '/es_woman.mp'
+                audioSrc : '/es_woman.mp3'
             },
             {
                 id : 3,
@@ -139,7 +139,7 @@ const main = async () =>{
                 imageSrc : '/robot.svg',
                 correct : false,
                 text : 'el robot',
-                audioSrc : '/es_robot.mp'
+                audioSrc : '/es_robot.mp3'
             }
         ])
 
@@ -148,19 +148,19 @@ const main = async () =>{
                 challengeId : 2,
                 correct : true,
                 text : 'el hombre',
-                audioSrc : '/es_man.mp'
+                audioSrc : '/es_man.mp3'
             },
             {
                 challengeId : 2,
                 correct : false,
                 text : 'la mujer',
-                audioSrc : '/es_woman.mp'
+                audioSrc : '/es_woman.mp3'
             },
             {
                 challengeId : 2,
                 correct : false,
                 text : 'el robot',
-                audioSrc : '/es_robot.mp'
+                audioSrc : '/es_robot.mp3'
             }
         ])
 
@@ -170,21 +170,21 @@ const main = async () =>{
                 imageSrc : '/man.svg',
                 correct : false,
                 text : 'el hombre',
-                audioSrc : '/es_man.mp'
+                audioSrc : '/es_man.mp3'
             },
             {
                 challengeId : 3,
                 imageSrc : '/woman.svg',
                 correct : false,
                 text : 'la mujer',
-                audioSrc : '/es_woman.mp'
+                audioSrc : '/es_woman.mp3'
             },
             {
                 challengeId : 3,
                 imageSrc : '/robot.svg',
                 correct : true,
                 text : 'el robot',
-                audioSrc : '/es_robot.mp'
+                audioSrc : '/es_robot.mp3'
             }
         ])
 
@@ -198,3 +198,6 @@ const main = async () =>{
 }
 
 main();
+
+
+// this is new line 
