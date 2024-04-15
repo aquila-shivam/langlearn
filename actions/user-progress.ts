@@ -129,7 +129,7 @@ export const refillHearts = async() =>{
         throw new Error("Hearts are already full");
     }
 
-    if(currentUserProgress.hearts >= POINTS_TO_REFILL){
+    if(currentUserProgress.points < POINTS_TO_REFILL){
         throw new Error("Not enough points")
     }
 
