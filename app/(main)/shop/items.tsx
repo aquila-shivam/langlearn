@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { useTransition } from "react";
 import { toast } from "sonner";
+import { POINTS_TO_REFILL } from "@/constant";
 
 
 type Props ={
@@ -14,7 +15,6 @@ type Props ={
     hasActiveSubscription : boolean;
 }
 
-const POINTS_TO_REFILL = 10;
 
 export const Items = ({
     hearts,
